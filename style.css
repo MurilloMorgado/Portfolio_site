@@ -1,0 +1,50 @@
+:root{
+  --preto: #000000;
+  --branco: #ffffff;
+  --preto-secundario: #1E272E;
+  --branco-gelo: #D9D9D9;
+}
+
+/* Header */
+
+header{
+  width: 100vw;
+  height: 8vh;
+
+  background: var(--preto-secundario);
+}
+
+.container-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 8vh;
+  padding: 0 5px;
+}
+
+/* Detalhes sobre a logo do projeto */
+.logo-superior img{
+  width: 178px;
+  height: 48px;
+}
+
+/* Menu toogle */
+.menu-toggle{
+  
+}
+
+.menu-toggle span{
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin: 5px 0;
+
+  background: red;
+}
+
+/* Navegação */
+
+nav ul{
+  display: none;
+}
