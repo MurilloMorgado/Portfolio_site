@@ -12,6 +12,7 @@ header{
   height: 8vh;
 
   background: var(--preto-secundario);
+  border-radius: 0 0 30px 30px;
 }
 
 .container-header{
@@ -27,6 +28,7 @@ header{
 .logo-superior img{
   width: 178px;
   height: 48px;
+
 }
 
 /* Menu toogle */
@@ -41,6 +43,7 @@ header{
   margin: 5px 0;
 
   background: var(--branco);
+  box-shadow: 9px 5px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Navegação */
@@ -99,6 +102,9 @@ header{
 
 /* Estilização da imgem */
 .imagem-murillo{
+  display: flex;
+  justify-content: center;
+
   margin: 10px;
   padding-top: 50px;
 
@@ -106,6 +112,10 @@ header{
   box-shadow: 9px 5px 4px rgba(0, 0, 0, 0.5);
 
   background: var(--preto-secundario);
+}
+
+.imagem-murillo img{
+  width: 270px;
 }
 
 /* sobre-inform */
@@ -135,20 +145,39 @@ header{
 }
 
 .sobre-links{
+  display: flex;
+  justify-content: space-evenly;
+
   padding: 20px 0;
 }
 
+.sobre-links span{
+  display: flex;
+  align-items: center;
+}
+
 .sobre-links a{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  margin: 10px;
+  margin:0 5px;
   
   color: #000000;
 
   text-decoration: none;
-  
 }
-.sobre-links a:hover{
+.sobre-links a:hover {
   border-bottom: #000000 solid 3px;
   
+}
+
+.logo-linkedin{
+  width: 25px;
+}
+
+.logo-github{
+  width: 35px;
+}
+
+.logo-nuvem{
+  width: 35px;
 }
