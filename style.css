@@ -269,6 +269,14 @@ header{
   color: var(--branco);
 }
 
+.caixa-projeto >span >p{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--branco);
+}
+
+
+
 .caixa-projeto >span >a{
   font-size: 22px;
   font-weight: 700;
