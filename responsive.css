@@ -24,6 +24,39 @@
   }
 /* LapTop */
   @media (min-width:830px) {
+    .menu-toggle{
+      display: none;
+    }
+
+    .menu-section nav{
+      display: block;
+    }
+
+    .menu-section nav ul{
+      display: flex;
+    }
+
+    .menu-section nav ul li{
+      margin: 0 20px;
+    }
+    .menu-section nav ul li a{
+      font-size: 22px;
+      color: #FFFFFF;
+
+      text-decoration: none;
+    }
+
+    .menu-section nav ul li a:hover{
+      border-bottom: #FFFFFF solid 3px ;
+    }
+
+    .container-inicio{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+
+
     .sections{
       width: 70%;
       margin: 50px auto;
@@ -33,6 +66,11 @@
       max-width: 270px;
     }
   }
+
+
+
+
+
 
 
     @media (min-width:900px) {
