@@ -110,6 +110,48 @@
 
 }
 @media (min-width:1180px) {
+  .container-inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+  }
+
+  .sobre-inform{
+    width: 50%;
+    
+  }
+
+  .sobre-inform h1{
+    font-size: 48px;
+    padding: 20px 0;
+  }
+
+  .sobre-inform h2{
+    font-size: 22px;
+
+  }
+
+  .paragrafo-inform h2{
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+  }
+
+
+  .container-projetos, .container-habilidades{
+    padding: 70px 20px;
+  }
+
+ 
+  .sections{
+    padding: 30px 0;
+  }
+
+
+
+
   .flex-projetos{
     justify-content: space-around;
   }
@@ -119,5 +161,11 @@
     grid-row-gap: 50px;
     
     margin: 30px 0;
+  }
+
+  .paragrafo-inform{
+    margin: 50px 50px;
+    
+   
   }
 }
