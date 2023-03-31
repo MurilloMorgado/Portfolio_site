@@ -101,6 +101,10 @@
 }
 
 @media (min-width:1180px) {
+   header{
+    width: 100%;
+  }
+
   .container-inicio{
     display: flex;
     justify-content: space-around;
