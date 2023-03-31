@@ -5,6 +5,10 @@
   --branco-gelo: #D9D9D9;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Header */
 
 header{
