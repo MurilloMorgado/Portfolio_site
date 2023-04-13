@@ -4,6 +4,7 @@
   --preto-secundario: #363636;
   --branco-gelo: #D9D9D9;
   --cor-principal: #F2F1EF;
+  --verde: #A2CCA6;
 }
 
 body{
@@ -30,6 +31,8 @@ header{
 
   height: 8vh;
   padding: 0 5px;
+
+  border-bottom: 2px solid var(--verde)
 }
 
 /* Detalhes sobre a logo do projeto */
@@ -68,7 +71,6 @@ header{
   top: 8vh;
   left: 0;
 
-
   background: var(--preto-secundario);
 }
 
@@ -78,7 +80,6 @@ header{
   justify-content: space-around;
   align-items: center;
   height: 92vh;
-
 }
 
 .menu-section.on nav ul li a{
@@ -88,18 +89,7 @@ header{
   
   padding: 10px 20px;
   border-bottom: #ffffff solid 1px;
-
 }
-
-/* Sobre */
-
-/* Bacground principal do sobre */
-
-/* .sections{
-  margin: 0 auto;
-  width: 80%;
-  
-} */
 
 .container-inicio{
   margin: 50px 10px ;
@@ -107,8 +97,6 @@ header{
   padding: 10px;
 
   border-radius: 30px;
-  
-
 }
 
 /* Estilização da imgem */
@@ -155,7 +143,6 @@ header{
 
   margin: 10px;
   text-align: justify;
-  
 }
 
 .sobre-links{
@@ -185,7 +172,6 @@ header{
 }
 .sobre-links a:hover {
   border-bottom: #000000 solid 3px;
-  
 }
 
 .logo-linkedin{
@@ -200,32 +186,9 @@ header{
   width: 35px;
 }
 
-/* Sobre 
-
-.container-cabecalho{
-  display: flex;
-  justify-content: center;
-
-}
-
-.container-cabecalho h2{
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 31px;
-  color: var(--branco);
-
-  border-radius: 30px 30px 0 0 ;
-  box-shadow: 9px 0px 4px rgba(0, 0, 0, 0.5);
-  border-radius: 30px 30px 0px 0px;
-
-  padding: 10px 20px;
-  background: var(--preto-secundario);
-}
-*/
 .container-sobre{
   margin: 0 10px 50px;
   padding: 10px;
-  
 }
 
 .paragrafo-inform{
@@ -243,24 +206,28 @@ header{
 
   margin-bottom: 20px;
 }
+
 /* Projetos */
 
+.container-cabecalho{
+  display: flex;
+  justify-content: center;
+}
+
+.container-cabecalho{
+  font-size: 26px;
+  font-weight: 700;
+}
+
 .container-projetos{
-  margin: 0 10px 50px;
+  margin: 0 10px;
   padding: 10px;
-
-  border-radius: 30px;
-  box-shadow: 9px 5px 4px rgba(0, 0, 0, 0.5);
-
-  background: var(--branco-gelo);
-
 }
 
 .flex-projetos{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .caixa-projeto{
@@ -268,16 +235,13 @@ header{
   height: 100%;
   margin: 25px 15px;
   
-  border-radius: 30px;
   box-shadow: 9px 5px 4px rgba(0, 0, 0, 0.5);
-  background: var(--preto-secundario);
+  background: var(--verde);
 }
 
 .caixa-projeto >span >img{
   width: 100%;
   height: 250px;
-
-  border-radius: 30px 30px 0 0;
 }
 
 .caixa-projeto >span >h3{
@@ -298,8 +262,6 @@ header{
   padding: 10px 10px;
 }
 
-
-
 .caixa-projeto >span >a{
   font-size: 22px;
   font-weight: 700;
@@ -311,13 +273,10 @@ header{
   justify-content: center;
   align-items: center;
 
-  border-radius: 0 0 30px 30px;
-
   text-decoration: none;
   background-color: var(--branco);
 
   margin-top: 20px;
-
   transition: 0.5s;
 }
 
@@ -325,19 +284,27 @@ header{
   font-size: 26px;
   background-color: #2b3841;
   color: var(--branco);
-  
+}
+
+.mais-projetos a{
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+
+  margin-right: 30px;
+
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+
+  margin-bottom: 70px;
 }
 
 /* Habilidades */
 
 .container-habilidades{
-  margin: 0 10px 50px;
+  margin: 50px 10px;
   padding: 10px;
-
-  border-radius: 30px;
-  box-shadow: 9px 5px 4px rgba(0, 0, 0, 0.5);
-
-  background: var(--branco-gelo);
 }
 
 .habilidade-divisao{
@@ -361,6 +328,7 @@ header{
   border-radius: 30px;
   box-shadow: 9px 5px 4px rgba(0, 0, 0, 0.5);
 }
+
 .logo-habilidades img{
   width: 90px;
 }
@@ -456,7 +424,6 @@ header{
   justify-content: center;
 
   width: 100%;
-  border-radius: 30px 30px 0 0;
   background-color: var(--preto-secundario);
 }
 
@@ -465,7 +432,6 @@ header{
   height: 48px;
 
   margin: 10px;
-  
 }
 
 .copyright p{
