@@ -15,11 +15,17 @@
   }
 }
 
-@media (min-width:788px) {
+@media (min-width:680px) {
   .sections{
     width: 75%;
     margin: 50px auto; 
   }
+  
+  .container-inicio{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
 }
 
 /* LapTop */
@@ -79,7 +85,7 @@
       }
     }
 
-@media (min-width:1024px) {
+/* @media (min-width:1024px) {
   .sections{
     width: 60%;
     margin: 50px auto;
@@ -98,7 +104,7 @@
     grid-row-gap: 86px;
     justify-content: center;
   }
-}
+} */
 
 @media (min-width:1180px) {
 
@@ -108,19 +114,48 @@
     align-items: center;
     height: 50vh;
   }
+  
+  .menu-section nav ul li a{
+    color: #000;
+  }
+
+  .menu-section nav ul li a:hover{
+    color: #000;
+    border-bottom: #000000 solid 3px;
+  }
+
+  .imagem-murillo{
+    background: none;
+    box-shadow: none;
+  }
+
+  .imagem-murillo img{
+    width: 500px;
+  }
+
+  .sobre-links{
+    justify-content: space-around;
+  }
+
 
   .sobre-inform{
     width: 50%;
   }
 
-  .sobre-inform h1{
-    font-size: 48px;
-    padding: 20px 0;
-  }
-
   .sobre-inform h2{
     font-size: 22px;
   }
+
+  .sobre-inform h1{
+    font-size: 60px;
+    line-height: 70px;
+    padding: 20px 0;
+  }
+
+  .sobre-inform p{
+    font-size: 20px;
+  }
+  
 
   .paragrafo-inform h2{
     font-size: 24px;
@@ -129,8 +164,12 @@
     margin-bottom: 20px;
   }
 
+  .paragrafo-inform p{
+    line-height: 30px;
+  }
+
   .container-projetos, .container-habilidades{
-    padding: 70px 20px;
+    padding: 70px 20px 10px;
   }
 
   .sections{
