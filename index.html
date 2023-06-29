@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css"> <!-- aaaa -->
     <link rel="stylesheet" href="reset/reset.css">
     <link rel="stylesheet" href="responsive.css">
     
@@ -21,59 +22,65 @@
     <title>Portfólio || Murillo Kinake</title>
 
 </head>
-<body>
+<body class="fundo">
 
-  <header class="container-sm">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-         <img src="img/logo preta.png" alt=""> 
-        
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-sm-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+  <header class="cor-navbar tamanho-dois">
+    <section class="container-sm  ">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+           <img src="img/logo preta.png" alt=""> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>  
+              <div class="collapse navbar-collapse justify-content-sm-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
         </div>
-
-      </div>
-    </nav>
+      </nav>
+    </section>  
   </header>
 
 
   <main>
     
-    <section class="sections" id="inicio">
-      <!-- <div class="d-flex justify-content-center"> -->
-      <div class="t container-sm">
-        <h2 class="m-100">Hi, i`m Murillo Kinake,</h2>
+    <section class="sections " id="inicio">
+      <div class="d-flex justify-content-center tamnho-um"> 
+      <div class="tam-nav container-sm ">
+        <h2 class="m-100 espacosuperior">Hi, i`m Murillo Kinake,</h2>
         <h1 class="d-200s">FULL-STACK</h1>
         <h1 class="d-200">DEVELOPER</h1>
-        <div>
-          <img class="imag-logo" src="img/linkedin.png" alt="">
+        <div class="logos">
+          <!-- <img class="imag-logo" src="img/linkedin.png" alt="">
           <img class="imag-logo" src="img/github.png" alt="">
-          <img class="imag-logo" src="img/email.png" alt="">
+          <img class="imag-logo" src="img/email.png" alt=""> -->
+          <a href="https://github.com/MurilloMorgado">
+            <i class="fab fa-github imag-logo"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-envelope imag-logo"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/murillo-morgado/">
+            <i class="fa-brands fa-linkedin imag-logo"></i>
+          </a>
         </div>
-        <p class="m-100">I am 27 years old, studying to become a full-stack developer.</p>
+        <p class="m-100 espaco-end">I am 27 years old, studying to become a full-stack developer.</p>
       </div>
-
       </div>
     </section>
 
