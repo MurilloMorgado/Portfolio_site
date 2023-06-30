@@ -8,7 +8,6 @@
 
 }
 
-
 .fundo{
   background: #e0e6dd;
 }
@@ -36,8 +35,6 @@
   align-items: center;
   
 }
-
-
 
 .logos{
   display: inline;
@@ -86,7 +83,6 @@
   .imag-logo:hover{
     cursor: pointer;
     color: #A2CCA6;
-    transform: rotateY(360deg); 
   }
 
   .espaco-end{
@@ -101,6 +97,7 @@
   }
 
   /* ABOUT */
+
 .ajuste-imagem{
   display: flex;
   justify-content: center;
@@ -123,3 +120,86 @@
     line-height: 25px;
   }
 
+  .about-texto{
+    margin-bottom: 4rem;
+  }
+
+  /* PROJECTS */
+  
+  .col img{
+    width: 260px;
+  }
+
+  .col a{
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .button {
+    --bg: #363636;
+    --hover-bg: #5b7a5f;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+
+    margin: 0 auto;
+    text-decoration: none;
+  
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+/*  SKILLS  */
+
+.button-curriculo {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+}
+
+.button-curriculo:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button-curriculo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(54,54,54) 10.8%,
+    rgb(91,122,95) 94.3%
+  );
+  transition: all 0.475s;
+}
