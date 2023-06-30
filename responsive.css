@@ -11,9 +11,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  /* .cor-navbar{
-    background: rgb(3, 226, 22);
-  } */
+
   .m-100{
     font-size: 32px;
   }
@@ -29,6 +27,12 @@
   .imag-logo{
 
     font-size: 40px;
+    }
+
+/* ABOUT */
+
+    .m-texto{
+      font-size: 28px;
     }
  }
 
@@ -54,6 +58,19 @@
 
     font-size: 50px;
     }
+/* ABOUT */
+  .d-flexx{
+  display: flex;
+  }
+
+  .ajuste-imagem{
+    display: inline-block;
+    width: 90%;
+  }
+
+  .texto-lado-imagem{
+    width: 100%;
+  }
 
  }
 
@@ -80,6 +97,15 @@
     font-size: 70px;
     }
 
+    /* ABOUT */
+
+    .m-texto{
+      font-size: 32px;
+    }
+
+    .ajuste-imagem{
+      width: 70%;
+    }
  }
 
 
@@ -147,6 +173,11 @@
       justify-content: end;
       
     }
+
+        /* ABOUT */
+        .ajuste-imagem{
+          width: 50%;
+        }
   
  }
 
@@ -167,6 +198,11 @@
     letter-spacing: 3.15px;
   
     display: inline-block; 
+  }
+
+  /* ABOUT */
+  .ajuste-imagem{
+    width: 40%;
   }
 
  }

@@ -99,3 +99,27 @@
    margin-left: 100px;
    line-height: 20px;
   }
+
+  /* ABOUT */
+.ajuste-imagem{
+  display: flex;
+  justify-content: center;
+}
+  .container-sm .imagem-fundo{
+    background-color: #363636;
+    margin-bottom: 20px;
+  }
+
+  .tamnho-um{
+    height: 100vh;
+    align-items: center;
+    
+  }
+
+  .m-texto {
+    font-size: 22px;
+    text-align: justify;
+    font-family: Dongle;
+    line-height: 25px;
+  }
+
