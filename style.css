@@ -10,8 +10,7 @@
 
 
 .fundo{
-  /* background-color: #59666b;  */
-  background: linear-gradient(180deg, #3F474A 0%, #7C8A8F 100%);
+  background: #e0e6dd;
 }
 
 .container-fluid img{
@@ -19,9 +18,9 @@
 }
 
 .cor-navbar{
-  background: linear-gradient(180deg, #A2CCA6 0%, #abbac2 100%);
-
+  background: linear-gradient(180deg, #A2CCA6 0%, #e0e6dd 100%);
    height: 7%;
+   border-bottom: solid 2px #5b7a5f;
 }
 
 .navbar-nav{
@@ -29,12 +28,13 @@
   font-family: Dongle;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: normal;  
 }
 
 .tamnho-um{
   height: 93vh;
   align-items: center;
+  
 }
 
 
@@ -44,7 +44,7 @@
 }
 
 .m-100{
-  color: #000;
+  color: #363636;
   font-size: 28px;
   font-family: Dongle;
   font-weight: bold;
@@ -52,14 +52,15 @@
 
 
 .d-200s {
-  color: #FFD700;
+  color: #5b7a5f;
   font-size: 55px;
   font-family: Lalezar;
   letter-spacing: 3.15px;
+
   
 }
 .d-200 {
-  color: #FFD700;
+  color: #5b7a5f;
   font-size: 30px;
   font-family: Lalezar;
   letter-spacing: 3.15px;

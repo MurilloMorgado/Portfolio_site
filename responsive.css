@@ -11,38 +11,80 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  .cor-navbar{
-    background: rgb(205, 50, 159);
+  /* .cor-navbar{
+    background: rgb(3, 226, 22);
+  } */
+  .m-100{
+    font-size: 32px;
   }
+
+  .d-200s{
+    font-size: 90px;
+  }
+
+  .d-200{
+    font-size: 60px;
+  }
+  
+  .imag-logo{
+
+    font-size: 40px;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  .cor-navbar{
+/*   .cor-navbar{
     background: aqua;
+  } */
+
+  .m-100{
+    font-size: 32px;
   }
+
+  .d-200s{
+    font-size: 130px;
+  }
+
+  .d-200{
+    font-size: 90px;
+  }
+  
+  .imag-logo{
+
+    font-size: 50px;
+    }
+
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .cor-navbar{
+/*   .cor-navbar{
     background: green;
+  } */
+
+  .m-100{
+    font-size: 38px;
   }
+
+  .d-200s{
+    font-size: 175px;
+  }
+
+  .d-200{
+    font-size: 125px;
+  }
+  
+  .imag-logo{
+
+    font-size: 70px;
+    }
 
  }
 
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
- 
-
-  .cor-navbar{
-    background: linear-gradient(180deg, #A2CCA6 0%, yellow 100%);
-    }
-  
-  .fundo{
-      background: #F2F1EF;
-    }
   
   .tamnho-um{
     height: 93vh;
@@ -61,7 +103,8 @@
   }
   
   .d-200s {
-    color: #A2CCA6;
+    /* color: #A2CCA6; */
+    color: #5b7a5f;
     font-size: 170px;
     font-family: Lalezar;
     letter-spacing: 23.15px;
@@ -69,7 +112,7 @@
   }
 
   .d-200 {
-    color: #A2CCA6;
+    color: #5b7a5f;
     font-size: 120px;
     font-family: Lalezar;
     letter-spacing: 3.15px;
@@ -89,17 +132,20 @@
     height: 0px;
     color: #363636;
     transition: 0.3s;
+    
     }
   
     .imag-logo:hover{
       cursor: pointer;
-      color: #A2CCA6;
-      transform: rotateY(360deg); 
+      color: #5b7a5f;
+      transform: rotateY(360deg);
+      
     }
     
     .espaco-end{
       display: flex;
       justify-content: end;
+      
     }
   
  }
@@ -107,72 +153,20 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
   
-  .cor-navbar{
-    background: linear-gradient(180deg, #A2CCA6 0%, red 100%);
-    }
-
-  /*   .fundo{
-      background: #F2F1EF;
-  
-    }
-  
-  .tamnho-um{
-    height: 93vh;
-    align-items: center;
-  }
-  
-  .tamanho-dois{
-    height: 7vh;
-  }
-  
-  .m-100{
-    color: #363636;
-    font-size: 32px;
-    font-family: Dongle;
-    font-weight: bold;
-  } */
-  
   .d-200s {
-    color: #A2CCA6;
-    font-size: 200px;
+    
+    font-size: 210px;
     font-family: Lalezar;
     letter-spacing: 23.15px;
     line-height: 0.9em;  
   }
   .d-200 {
-    color: #A2CCA6;
-    font-size: 150px;
+    
+    font-size: 170px;
     font-family: Lalezar;
     letter-spacing: 3.15px;
   
     display: inline-block; 
   }
-  /* 
-  .logos{
-    display: inline-flex;
-    margin-top: 35px;
-    margin-left: 55px;
-    }
-    
-  .imag-logo{
-    margin: 11px;
-    font-size: 100px;
-    width: 100px;
-    height: 0px;
-    color: #363636;
-    transition: 0.3s;
-    }
-  
-    .imag-logo:hover{
-      cursor: pointer;
-      color: #A2CCA6;
-      transform: rotateY(360deg);
-  
-      
-    }
-    
-    .espaco-end{
-      display: flex;
-      justify-content: end;
-    } */
+
  }
