@@ -1,0 +1,89 @@
+{
+  "secao": "Projetos",
+  "projetos": [
+    {
+      "titulo": "Roll the dice",
+      "imagem": {
+        "src": "img-provi.jpg",
+        "alt": ""
+      },
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        }
+      ]
+    },
+    {
+      "titulo": "Roll the dice",
+      "imagem": {
+        "src": "img-provi.jpg",
+        "alt": ""
+      },
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        }
+      ]
+    },
+    {
+      "titulo": "Roll the dice",
+      "imagem": {
+        "src": "img-provi.jpg",
+        "alt": ""
+      },
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        }
+      ]
+    },
+    {
+      "titulo": "Roll the dice",
+      "imagem": {
+        "src": "img-provi.jpg",
+        "alt": ""
+      },
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light"
+        }
+      ]
+    }
+  ]
+}

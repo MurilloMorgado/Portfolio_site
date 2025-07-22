@@ -1,0 +1,138 @@
+.custom-sobre div p {
+  color: #FFF;
+}
+
+.custom-apresentacao {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 21px;
+}
+
+.custom-nome {
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 48px;
+  color: aqua;
+}
+
+.custom-imagem {
+  width: 350px;
+  height: auto;
+  /* mantém proporção */
+
+  animation: pulse-shadow 4.5s infinite ease-in-out;
+  border-radius: 0;
+}
+
+@keyframes pulse-shadow {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 16px rgba(255, 255, 255, 1));
+  }
+}
+
+.section-two {
+  height: 500px;
+  background-color: #0B0B0B;
+}
+
+.section-three {
+  height: 500px;
+}
+
+.experience-item.selected {
+  border-left: solid 2px aqua;
+}
+
+.experience-item {
+  position: relative;
+  padding-left: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.experience-item:hover {
+ background: #ffffff0a;
+}
+
+h4 {
+  color: aqua;
+  font-size: 32px;
+  font-family: 'Preahvihear', sans-serif;
+}
+
+.custom-experiencias h4 {
+  margin-bottom: 2rem;
+}
+
+.custom-experiencia p {
+ font-size: 14px; 
+}
+
+.custom-experiencia-detalhe h6 {
+  color: aqua;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.section-four {
+  min-height: 500px;
+}
+
+.custom-card{
+  max-width: 600px;
+}
+
+.custom-card img{
+  width: 592px;
+  height: 200px;
+  background: #272727;
+  border-left: solid 5px aqua;
+}
+
+.custom-card .nome-projeto{
+  margin: 2rem 0;
+  font-size: 24px;
+}
+.custom-card .tecnologias{
+  color: aqua;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.custom-flex-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* espaçamento entre cards */
+  justify-content: space-between;
+}
+
+.custom-projetos {
+  width: 100%;
+}
+
+.custom-card {
+  flex: 0 0 calc(25% - 1rem); /* 4 por linha, com espaçamento */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-five {
+  height: 500px;
+}

@@ -1,0 +1,110 @@
+<app-header></app-header>
+<main class="container my-4">
+
+  <section class="custom-flex between section-one">
+    <div class="custom-sobre">
+      <div>
+        <p class="custom-apresentacao">Olá, eu sou</p>
+      </div>
+      <div>
+        <h3 class="custom-nome">Murillo Morgado</h3>
+      </div>
+      <div>
+        <p class="custom-apresentacao">Desenvolvedor Frontend & UI Designer.</p>
+      </div>
+      <div class="custom-flex between">
+        <button type="button" class="btn btn-outline-light">Linkedin</button>
+        <button type="button" class="btn btn-outline-light">Github</button>
+      </div>
+    </div>
+    <div><img class="custom-imagem img-fluid" src="Murillo-organico.png" alt="Imagem do Desenvolvedor"></div>
+  </section>
+
+  <section class="custom-flex section-two">
+    <div>
+      <div>
+        <h4>Sobre</h4>
+      </div>
+      <div>
+        <h6>Vitoria, Espirito Santo</h6>
+      </div>
+      <div>
+        <p>Olá! Meu nome é Murillo Morgado, e atualmente estou cursando o terceiro período de Análise e Desenvolvimento
+          de
+          Sistemas. Sou uma pessoa dedicada e apaixonada por tecnologia, e estou sempre em busca de conhecimento e
+          aprendizado na área de programação.
+          <br>
+          <br>
+          Meu objetivo é me tornar um desenvolvedor front-end qualificado, capaz de criar interfaces visuais incríveis e
+          funcionais para sites e aplicativos. Estou comprometido em aprimorar minhas habilidades técnicas e em
+          contribuir
+          para o desenvolvimento de projetos desafiadores e inovadores.
+          <br>
+          <br>
+          Estou aberto a novas oportunidades e desafios em minha jornada de aprendizado, e estou animado para trabalhar
+          com equipes que compartilham do mesmo entusiasmo e dedicação em sua busca por excelência. Obrigado por ler
+          minha
+          apresentação, e estou ansioso para conectar com outros profissionais do setor de tecnologia.
+        </p>
+      </div>
+      <div>
+        <button type="button" class="btn btn-outline-light">Baixar Currículo</button>
+      </div>
+    </div>
+    <div>
+    </div>
+  </section>
+
+  <section class="custom-flex between section-three">
+    <div class="custom-experiencias">
+      <h4>Experiências</h4>
+      <ul class="list-unstyled">
+        <li *ngFor="let exp of experiences" (click)="selectExperience(exp.id)" class="experience-item mb-2"
+          [class.selected]="selectedExperience === exp.id">
+          <p class="mb-0">{{ exp.name }}</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="ms-4" style="max-width: 900px;" *ngIf="selectedExp">
+      <div class="custom-flex between custom-experiencia">
+        <h5>{{ selectedExp.role }}</h5>
+        <p>{{ selectedExp.period }}</p>
+      </div>
+      <div class="custom-experiencia-detalhe">
+        <h6>{{ selectedExp.company }}</h6>
+        <p>{{ selectedExp.description }}</p>
+      </div>
+    </div>
+
+  </section>
+
+<section class="section-four " *ngIf="secaoProjetos">
+  <h4>{{ secaoProjetos.secao }}</h4>
+  <div class="custom-flex-card custom-projetos">
+  
+    <div *ngFor="let projeto of secaoProjetos.projetos" class="custom-card">
+      <img [src]="projeto.imagem.src" [alt]="projeto.imagem.alt" />
+      <h5 class="nome-projeto">{{ projeto.titulo }}</h5>
+      <p class="texto">{{ projeto.descricao }}</p>
+      <p class="tecnologias">{{ projeto.tecnologias }}</p>
+      <div class="custom-flex between">
+        <button
+          *ngFor="let btn of projeto.botoes"
+          [type]="btn.tipo"
+          [class]="btn.classe"
+        >
+          {{ btn.texto }}
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="custom-flex between section-five">
+    <h4>Skils</h4>
+  </section>
+
+</main>
+<app-footer></app-footer>
