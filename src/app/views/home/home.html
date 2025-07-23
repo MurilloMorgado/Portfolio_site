@@ -79,31 +79,84 @@
 
   </section>
 
-<section class="section-four " *ngIf="secaoProjetos">
-  <h4>{{ secaoProjetos.secao }}</h4>
-  <div class="custom-flex-card custom-projetos">
-  
-    <div *ngFor="let projeto of secaoProjetos.projetos" class="custom-card">
-      <img [src]="projeto.imagem.src" [alt]="projeto.imagem.alt" />
-      <h5 class="nome-projeto">{{ projeto.titulo }}</h5>
-      <p class="texto">{{ projeto.descricao }}</p>
-      <p class="tecnologias">{{ projeto.tecnologias }}</p>
-      <div class="custom-flex between">
-        <button
-          *ngFor="let btn of projeto.botoes"
-          [type]="btn.tipo"
-          [class]="btn.classe"
-        >
-          {{ btn.texto }}
-        </button>
+  <section class="section-four " *ngIf="secaoProjetos">
+    <h4>{{ secaoProjetos.secao }}</h4>
+    <div class="custom-flex-card custom-projetos">
+
+      <div *ngFor="let projeto of secaoProjetos.projetos" class="custom-card">
+        <img [src]="projeto.imagem.src" [alt]="projeto.imagem.alt" />
+        <h5 class="nome-projeto">{{ projeto.titulo }}</h5>
+        <p class="texto">{{ projeto.descricao }}</p>
+        <p class="tecnologias">{{ projeto.tecnologias }}</p>
+        <div class="custom-flex between">
+          <button *ngFor="let btn of projeto.botoes" [type]="btn.tipo" [class]="btn.classe">
+            {{ btn.texto }}
+          </button>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-  <section class="custom-flex between section-five">
+  <section class="section-five">
     <h4>Skils</h4>
+    <div class="custom-flex between">
+      <div class="custom-skils">
+
+        <p>Java</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 70%">70%</div>
+        </div>
+
+        <p>Spring-Boot</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="60" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 60%">60%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 50%">50%</div>
+        </div>
+
+        <p>TypScript</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 50%">50%</div>
+        </div>
+
+      </div>
+
+      <div class="custom-skils">
+
+        <p>C#</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+
+        <p>.Net</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+
+        <p>Angular</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 75%">75%</div>
+        </div>
+
+        <p>Git</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="65" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 65%">65%</div>
+        </div>
+
+      </div>
+    </div>
   </section>
 
 </main>

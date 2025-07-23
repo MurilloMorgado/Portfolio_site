@@ -134,5 +134,15 @@ h4 {
 
 
 .section-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 500px;
+}
+
+.custom-skils{
+  width: 45%;
+}
+.custom-skils p{
+  margin: 20px 0 5px;
 }
