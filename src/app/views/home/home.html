@@ -1,7 +1,7 @@
 <app-header></app-header>
 <main class="container my-4">
 
-  <section class="custom-flex between section-one">
+  <section class="section-one">
     <div class="custom-sobre">
       <div>
         <p class="custom-apresentacao">Olá, eu sou</p>
@@ -88,14 +88,15 @@
         <h5 class="nome-projeto">{{ projeto.titulo }}</h5>
         <p class="texto">{{ projeto.descricao }}</p>
         <p class="tecnologias">{{ projeto.tecnologias }}</p>
-        <div class="custom-flex between">
+        <div class="custom-flex between projeto-botoes">
           <button *ngFor="let btn of projeto.botoes" [type]="btn.tipo" [class]="btn.classe">
-            {{ btn.texto }}
+            <p>{{ btn.texto }}</p>
           </button>
         </div>
       </div>
     </div>
   </section>
+
 
   <section class="section-five">
     <h4>Skils</h4>
@@ -157,6 +158,6 @@
       </div>
     </div>
   </section>
-
+  
 </main>
 <app-footer></app-footer>
