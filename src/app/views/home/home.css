@@ -10,7 +10,7 @@
 .custom-nome {
   font-family: 'Preahvihear', sans-serif;
   font-size: 48px;
-  color: aqua;
+  color: #00a3a3;
 }
 
 .custom-imagem {
@@ -44,7 +44,7 @@
 }
 
 .experience-item.selected {
-  border-left: solid 2px aqua;
+  border-left: solid 2px #00a3a3;
 }
 
 .experience-item {
@@ -59,7 +59,7 @@
 }
 
 h4 {
-  color: aqua;
+  color: #00a3a3;
   font-size: 32px;
   font-family: 'Preahvihear', sans-serif;
 }
@@ -73,7 +73,7 @@ h4 {
 }
 
 .custom-experiencia-detalhe h6 {
-  color: aqua;
+  color: #00a3a3;
   font-size: 16px;
   margin-bottom: 2rem;
 }
@@ -90,7 +90,7 @@ h4 {
   width: 592px;
   height: 200px;
   background: #272727;
-  border-left: solid 5px aqua;
+  border-left: solid 5px #00a3a3;
 }
 
 .custom-card .nome-projeto{
@@ -98,7 +98,7 @@ h4 {
   font-size: 24px;
 }
 .custom-card .tecnologias{
-  color: aqua;
+  color: #00a3a3;
   font-size: 16px;
   font-weight: 500;
 }
@@ -145,4 +145,8 @@ h4 {
 }
 .custom-skils p{
   margin: 20px 0 5px;
+}
+
+.progress-bar {
+  background-color: #00a3a3;
 }
