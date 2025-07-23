@@ -59,4 +59,13 @@ export class Home implements OnInit {
     return this.experiences.find(exp => exp.id === this.selectedExperience);
   }
 
+openLinkedin() {
+  window.open('https://www.linkedin.com/in/murillo-morgado/', '_blank');
+}
+
+openGitHub() {
+  window.open('https://github.com/MurilloMorgado', '_blank');
+}
+
+
 }
