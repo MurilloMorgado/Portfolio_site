@@ -42,8 +42,8 @@ export class Home implements OnInit {
     }
   ];
 
-  constructor(private http: HttpClient) {}
-  
+  constructor(private http: HttpClient) { }
+
   ngOnInit(): void {
     this.http.get<SecaoProjetos>('data/projetos.json')
       .subscribe(data => {
@@ -59,13 +59,21 @@ export class Home implements OnInit {
     return this.experiences.find(exp => exp.id === this.selectedExperience);
   }
 
-openLinkedin() {
-  window.open('https://www.linkedin.com/in/murillo-morgado/', '_blank');
-}
+  openLinkedin() {
+    window.open('https://www.linkedin.com/in/murillo-morgado/', '_blank');
+  }
 
-openGitHub() {
-  window.open('https://github.com/MurilloMorgado', '_blank');
-}
+  openGitHub() {
+    window.open('https://github.com/MurilloMorgado', '_blank');
+  }
+
+  baixarCurriculo() {
+    const pdfUrl = 'curriculoMurillo.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'curriculoMurillo.pdf';
+    link.click();
+  }
 
 
 }
