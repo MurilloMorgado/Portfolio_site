@@ -23,6 +23,7 @@
     animation: pulse-shadow 4.5s infinite ease-in-out;
     border-radius: 0;
   }
+
 }
 
 @keyframes pulse-shadow {
