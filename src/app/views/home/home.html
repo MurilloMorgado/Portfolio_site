@@ -28,7 +28,7 @@
       <div>
         <h6>Vitoria, Espirito Santo</h6>
       </div>
-      <div>
+      <div class="texto-sobre">
         <p>Olá! Meu nome é Murillo Morgado, e atualmente estou cursando o terceiro período de Análise e Desenvolvimento
           de
           Sistemas. Sou uma pessoa dedicada e apaixonada por tecnologia, e estou sempre em busca de conhecimento e
@@ -90,13 +90,12 @@
         <p class="tecnologias">{{ projeto.tecnologias }}</p>
         <div class="custom-flex between projeto-botoes">
           <button *ngFor="let btn of projeto.botoes" [type]="btn.tipo" [class]="btn.classe">
-            <p>{{ btn.texto }}</p>
+            {{ btn.texto }}
           </button>
         </div>
       </div>
     </div>
   </section>
-
 
   <section class="section-five">
     <h4>Skils</h4>
