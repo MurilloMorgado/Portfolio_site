@@ -30,6 +30,8 @@
           },
           "configurations": {
             "production": {
+              "outputPath": "docs",
+              "baseHref": "/Portfolio_site/",
               "budgets": [
                 {
                   "type": "initial",
