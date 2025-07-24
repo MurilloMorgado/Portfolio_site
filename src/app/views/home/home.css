@@ -1,25 +1,28 @@
-.custom-sobre div p {
-  color: #FFF;
-}
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 
-.custom-apresentacao {
-  font-family: 'Preahvihear', sans-serif;
-  font-size: 21px;
-}
+  .custom-apresentacao {
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 21px;
+  }
 
-.custom-nome {
-  font-family: 'Preahvihear', sans-serif;
-  font-size: 48px;
-  color: aqua;
-}
+  .custom-nome {
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 48px;
+    color: #00a3a3;
+  }
 
-.custom-imagem {
-  width: 350px;
-  height: auto;
-  /* mantém proporção */
+  .custom-imagem {
+    min-width: 250px;
+    max-width: 350px;
+    height: auto;
 
-  animation: pulse-shadow 4.5s infinite ease-in-out;
-  border-radius: 0;
+    animation: pulse-shadow 4.5s infinite ease-in-out;
+    border-radius: 0;
+  }
 }
 
 @keyframes pulse-shadow {
@@ -35,16 +38,17 @@
 }
 
 .section-two {
-  height: 500px;
-  background-color: #0B0B0B;
+  min-height: 500px;
+  padding: 25px 10px;
 }
 
 .section-three {
-  height: 500px;
+  min-height: 500px;
+  padding: 25px 10px;
 }
 
 .experience-item.selected {
-  border-left: solid 2px aqua;
+  border-left: solid 2px #00a3a3;
 }
 
 .experience-item {
@@ -55,11 +59,11 @@
 }
 
 .experience-item:hover {
- background: #ffffff0a;
+  background: #ffffff0a;
 }
 
 h4 {
-  color: aqua;
+  color: #00a3a3;
   font-size: 32px;
   font-family: 'Preahvihear', sans-serif;
 }
@@ -69,36 +73,31 @@ h4 {
 }
 
 .custom-experiencia p {
- font-size: 14px; 
+  font-size: 14px;
 }
 
 .custom-experiencia-detalhe h6 {
-  color: aqua;
+  color: #00a3a3;
   font-size: 16px;
   margin-bottom: 2rem;
 }
 
 .section-four {
   min-height: 500px;
+  padding: 25px 10px;
+
+  .projeto-botoes p {
+    margin: 2px;
+  }
 }
 
-.custom-card{
-  max-width: 600px;
-}
-
-.custom-card img{
-  width: 592px;
-  height: 200px;
-  background: #272727;
-  border-left: solid 5px aqua;
-}
-
-.custom-card .nome-projeto{
+.custom-card .nome-projeto {
   margin: 2rem 0;
   font-size: 24px;
 }
-.custom-card .tecnologias{
-  color: aqua;
+
+.custom-card .tecnologias {
+  color: #00a3a3;
   font-size: 16px;
   font-weight: 500;
 }
@@ -106,7 +105,7 @@ h4 {
 .custom-flex-card {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; /* espaçamento entre cards */
+  gap: 1rem;
   justify-content: space-between;
 }
 
@@ -115,15 +114,20 @@ h4 {
 }
 
 .custom-card {
-  flex: 0 0 calc(25% - 1rem); /* 4 por linha, com espaçamento */
+  flex: 0 0 calc(25% - 1rem);
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
 }
 
-
+.custom-card img {
+  width: 550px;
+  height: 200px;
+  background: #272727;
+  border-left: solid 5px #00a3a3;
+}
 
 
 
@@ -137,12 +141,109 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  min-height: 500px;
+  padding: 25px 10px;
 }
 
-.custom-skils{
-  width: 45%;
+.custom-skils {
+  width: 100%;
+  padding: 0 10px;
 }
-.custom-skils p{
+
+.custom-skils p {
   margin: 20px 0 5px;
+}
+
+.progress-bar {
+  background-color: #00a3a3;
+}
+
+/* Mobile (phones) */
+@media (max-width: 767px) {
+
+  .section-one {
+
+    flex-direction: column-reverse;
+
+    .custom-imagem {
+      min-width: 150px;
+      max-width: 250px;
+
+    }
+  }
+
+  .section-three {
+    flex-direction: column;
+  }
+
+  .section-four {
+
+    .custom-projetos {
+      justify-content: center;
+    }
+
+    .custom-card img {
+      width: 250px;
+      height: 150px;
+    }
+
+    .projeto-botoes p {
+      font-size: 11px;
+    }
+  }
+
+  .section-five {
+
+    .skils {
+      flex-direction: column;
+    }
+  }
+
+}
+
+/* Tablet (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .section-one {
+
+    .custom-apresentacao {
+      font-size: 18px;
+    }
+
+    .custom-nome {
+      font-size: 38px;
+    }
+
+    .custom-imagem {
+      min-width: 150px;
+      max-width: 280px;
+
+    }
+  }
+
+  .section-four {
+
+    .custom-projetos {
+      justify-content: center;
+    }
+
+    .custom-card img {
+      width: 400px;
+      height: 250px;
+    }
+
+    .projeto-botoes p {
+      font-size: 14px;
+    }
+  }
+}
+
+/* Desktop (landscape) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Estilos para desktops de médio porte */
+}
+
+/* Large Desktop (wide screens) */
+@media (min-width: 1441px) {
+  /* Estilos para telas maiores */
 }
