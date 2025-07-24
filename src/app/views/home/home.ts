@@ -67,6 +67,12 @@ export class Home implements OnInit {
     window.open('https://github.com/MurilloMorgado', '_blank');
   }
 
+  abrirLink(link: string | undefined): void {
+    if (link) {
+      window.open(link, '_blank');
+    }
+  }
+
   baixarCurriculo() {
     const pdfUrl = 'curriculoMurillo.pdf';
     const link = document.createElement('a');

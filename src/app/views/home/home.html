@@ -107,7 +107,9 @@
         <p class="texto">{{ projeto.descricao }}</p>
         <p class="tecnologias">{{ projeto.tecnologias }}</p>
         <div class="custom-flex between projeto-botoes">
-          <button *ngFor="let btn of projeto.botoes" [type]="btn.tipo" [class]="btn.classe">
+          <button *ngFor="let btn of projeto.botoes" [type]="btn.tipo" (click)="abrirLink(btn.link)"
+            [class]="btn.classe" [disabled]="!btn.link"
+            [title]="btn.link ? '' : 'Em breve! Projeto ainda não publicado.'">
             {{ btn.texto }}
           </button>
         </div>
