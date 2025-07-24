@@ -1,0 +1,97 @@
+{
+  "secao": "Projetos",
+  "projetos": [
+    {
+      "titulo": "Cinefetch",
+      "imagem": {
+        "src": "Cinefetch.png",
+        "alt": ""
+      },
+      "descricao": "CineFetch é uma API desenvolvida para consultar filmes utilizando a API pública OMDB.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": ""
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/cinefetch"
+        }
+      ]
+    },
+    {
+      "titulo": "People Sync",
+      "imagem": {
+        "src": "PeopleSync.png",
+        "alt": ""
+      },
+      "descricao": "People-sync é uma API desenvolvida com o objetivo de gerenciar cadastros de usuários.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": ""
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/people-sync"
+        }
+      ]
+    },
+    {
+      "titulo": "Web Pokedex",
+      "imagem": {
+        "src": "ash-caminhando.png",
+        "alt": ""
+      },
+      "descricao": "Web-Pokedex é um projeto usando apenas o front com objetivo de aprimoramento da responsividade.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": "https://murillomorgado.github.io/Web-Pokedex/anime"
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/Web-Pokedex"
+        }
+      ]
+    },
+    {
+      "titulo": "Smart Market",
+      "imagem": {
+        "src": "SmartMarket.png",
+        "alt": ""
+      },
+      "descricao": "Smart Market e um projeto em desenvolvimento com front, back e banco com o objetivo de gerenciar compras do mês.",
+      "tecnologias": "Tecnologias usadas no projeto",
+      "botoes": [
+        {
+          "texto": "Acessar projeto",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": ""
+        },
+        {
+          "texto": "Acessar repositório",
+          "tipo": "button",
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/smart-market"
+        }
+      ]
+    }
+  ]
+}
