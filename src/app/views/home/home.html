@@ -1,0 +1,182 @@
+<app-header></app-header>
+<main class="container my-4" style="padding-top: 80px;">
+
+  <section class="section-one">
+    <div class="custom-sobre">
+      <div>
+        <p class="custom-apresentacao">Olá, eu sou</p>
+      </div>
+      <div>
+        <h3 class="custom-nome">Murillo Morgado</h3>
+      </div>
+      <div>
+        <p class="custom-apresentacao">Desenvolvedor Fullstack & UI Designer.</p>
+      </div>
+      <div class="custom-flex between">
+        <button type="button" class="btn btn-outline-light" (click)="openLinkedin()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+          </svg>
+          Linkedin</button>
+        <button type="button" class="btn btn-outline-light" (click)="openGitHub()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+          </svg>
+          Github</button>
+      </div>
+    </div>
+    <div><img class="custom-imagem img-fluid" src="Murillo-organico.png" alt="Imagem do Desenvolvedor"></div>
+  </section>
+
+  <section class="custom-flex section-two">
+    <div>
+      <div>
+        <h4>Sobre</h4>
+      </div>
+      <div>
+        <h6>Vitoria, Espirito Santo</h6>
+      </div>
+      <div class="texto-sobre">
+        <p>Olá! Meu nome é Murillo Morgado, sou formado em Análise e Desenvolvimento de Sistemas pela Faculdade FAESA.
+          Iniciei minha jornada profissional atuando com desenvolvimento web no front-end, utilizando TypeScript e o
+          framework Angular, onde pude desenvolver uma boa base em construção de interfaces e experiência do usuário.
+          <br>
+          <br>
+          Com o tempo, meu interesse por regras de negócio e arquitetura de sistemas me levou ao back-end, onde me
+          aprofundei em Java com Spring Boot. Hoje, tenho conhecimento tanto no front quanto no back-end, mas com foco
+          principal em me tornar um especialista em desenvolvimento back-end, área que mais me motiva e onde tenho
+          direcionado minha evolução técnica.
+          <br>
+          <br>
+          Atualmente, continuo me aprimorando em Java e estou expandindo meus conhecimentos em C# com .NET, buscando
+          dominar uma segunda linguagem de programação e ampliar minha capacidade de atuar em diferentes ecossistemas.
+          Estou sempre em busca de novos desafios que me permitam crescer como desenvolvedor e entregar soluções mais
+          eficientes e bem estruturadas.
+        </p>
+      </div>
+      <div>
+        <button type="button" class="btn btn-outline-light" (click)="baixarCurriculo()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708z" />
+            <path
+              d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+          </svg>
+          Baixar Currículo</button>
+      </div>
+    </div>
+    <div>
+    </div>
+  </section>
+
+  <section class="custom-flex between section-three">
+    <div class="custom-experiencias">
+      <h4>Experiências</h4>
+      <ul class="list-unstyled">
+        <li *ngFor="let exp of experiences" (click)="selectExperience(exp.id)" class="experience-item mb-2"
+          [class.selected]="selectedExperience === exp.id">
+          <p class="mb-0">{{ exp.name }}</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="ms-4" style="max-width: 900px;" *ngIf="selectedExp">
+      <div class="custom-flex between custom-experiencia">
+        <h5>{{ selectedExp.role }}</h5>
+        <p>{{ selectedExp.period }}</p>
+      </div>
+      <div class="custom-experiencia-detalhe">
+        <h6>{{ selectedExp.company }}</h6>
+        <p>{{ selectedExp.description }}</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-four " *ngIf="secaoProjetos">
+    <h4>{{ secaoProjetos.secao }}</h4>
+    <div class="custom-flex-card custom-projetos">
+
+      <div *ngFor="let projeto of secaoProjetos.projetos" class="custom-card">
+        <img [src]="projeto.imagem.src" [alt]="projeto.imagem.alt" />
+        <h5 class="nome-projeto">{{ projeto.titulo }}</h5>
+        <p class="texto">{{ projeto.descricao }}</p>
+        <p class="tecnologias">{{ projeto.tecnologias }}</p>
+        <div class="custom-flex between projeto-botoes">
+          <button *ngFor="let btn of projeto.botoes" [type]="btn.tipo" (click)="abrirLink(btn.link)"
+            [class]="btn.classe" [disabled]="!btn.link"
+            [title]="btn.link ? '' : 'Em breve! Projeto ainda não publicado.'">
+            {{ btn.texto }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-five">
+    <h4>Skils</h4>
+    <div class="custom-flex between skils">
+      <div class="custom-skils">
+
+        <p>Java</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 70%">70%</div>
+        </div>
+
+        <p>Spring-Boot</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="60" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 60%">60%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 50%">50%</div>
+        </div>
+
+        <p>TypScript</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 50%">50%</div>
+        </div>
+
+      </div>
+
+      <div class="custom-skils">
+
+        <p>C#</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+
+        <p>.Net</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+
+        <p>Angular</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 75%">75%</div>
+        </div>
+
+        <p>Git</p>
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="65" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar" style="width: 65%">65%</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+<app-footer></app-footer>

@@ -1,0 +1,14 @@
+.custom-footer{
+  background-color: #0B0B0B;
+}
+
+.custom-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-footer p{
+  margin: 5px;
+  color: #FFF;
+}
+
