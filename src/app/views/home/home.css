@@ -23,6 +23,7 @@
     animation: pulse-shadow 4.5s infinite ease-in-out;
     border-radius: 0;
   }
+
 }
 
 @keyframes pulse-shadow {
@@ -40,6 +41,11 @@
 .section-two {
   min-height: 500px;
   padding: 25px 10px;
+
+  .texto-sobre {
+    text-align: justify;
+
+  }
 }
 
 .section-three {
@@ -76,6 +82,11 @@ h4 {
   font-size: 14px;
 }
 
+.custom-experiencia-detalhe p {
+  text-align: justify;
+
+}
+
 .custom-experiencia-detalhe h6 {
   color: #00a3a3;
   font-size: 16px;
@@ -85,6 +96,10 @@ h4 {
 .section-four {
   min-height: 500px;
   padding: 25px 10px;
+
+  .texto{
+    font-size: 16px;
+  }
 
   .projeto-botoes p {
     margin: 2px;
@@ -125,17 +140,10 @@ h4 {
 .custom-card img {
   width: 550px;
   height: 200px;
+  object-fit: cover;
   background: #272727;
   border-left: solid 5px #00a3a3;
 }
-
-
-
-
-
-
-
-
 
 .section-five {
   display: flex;
@@ -187,7 +195,7 @@ h4 {
       height: 150px;
     }
 
-    .projeto-botoes p {
+    .projeto-botoes button {
       font-size: 11px;
     }
   }
@@ -232,7 +240,7 @@ h4 {
       height: 250px;
     }
 
-    .projeto-botoes p {
+    .projeto-botoes button {
       font-size: 14px;
     }
   }

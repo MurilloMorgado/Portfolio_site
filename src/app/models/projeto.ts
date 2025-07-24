@@ -2,6 +2,7 @@ export interface Botao {
   texto: string;
   tipo: string;
   classe: string;
+  link: string;
 }
 
 export interface Imagem {

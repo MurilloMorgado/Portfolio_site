@@ -27,23 +27,23 @@ export class Home implements OnInit {
     {
       id: 'faesa',
       name: 'Faesa',
-      role: 'Monitor de Programação',
-      period: 'Jul 2023 - Jul 2025',
+      role: 'Estudante',
+      period: 'Jan 2022 - Jul 2024',
       company: 'Faesa',
-      description: 'Atuei como monitor de programação e participei de projetos de extensão na faculdade.'
+      description: 'Graduado em Análise e Desenvolvimento de Sistemas com duração de 2 anos e meio, onde estudei Java, desenvolvimento responsivo, banco de dados, e práticas de desenvolvimento ágil como Scrum e Kanban. A formação incluiu tanto a teoria quanto a prática de tecnologias essenciais para criação de sistemas eficientes e escaláveis.'
     },
     {
       id: 'pessoal',
       name: 'Pessoal',
       role: 'Desenvolvedor',
-      period: 'Jul 2023 - Jul 2025',
+      period: 'Jul 2021 - ∞',
       company: 'Projetos Pessoais',
-      description: 'Desenvolvimento de portfólio, aplicativos Angular e contribuições em projetos open source.'
+      description: 'Atualmente, continuo meus estudos com foco no desenvolvimento Back-End, explorando C# e aprimorando meu conhecimento em Java com Spring Boot. Além disso, sigo aprofundando meus conhecimentos em bancos de dados, buscando sempre melhorar minha capacidade de criar soluções robustas, escaláveis e eficientes para atender às demandas do mercado de tecnologia.'
     }
   ];
 
-  constructor(private http: HttpClient) {}
-  
+  constructor(private http: HttpClient) { }
+
   ngOnInit(): void {
     this.http.get<SecaoProjetos>('data/projetos.json')
       .subscribe(data => {
@@ -59,13 +59,27 @@ export class Home implements OnInit {
     return this.experiences.find(exp => exp.id === this.selectedExperience);
   }
 
-openLinkedin() {
-  window.open('https://www.linkedin.com/in/murillo-morgado/', '_blank');
-}
+  openLinkedin() {
+    window.open('https://www.linkedin.com/in/murillo-morgado/', '_blank');
+  }
 
-openGitHub() {
-  window.open('https://github.com/MurilloMorgado', '_blank');
-}
+  openGitHub() {
+    window.open('https://github.com/MurilloMorgado', '_blank');
+  }
+
+  abrirLink(link: string | undefined): void {
+    if (link) {
+      window.open(link, '_blank');
+    }
+  }
+
+  baixarCurriculo() {
+    const pdfUrl = 'curriculoMurillo.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'curriculoMurillo.pdf';
+    link.click();
+  }
 
 
 }

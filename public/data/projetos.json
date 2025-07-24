@@ -2,86 +2,94 @@
   "secao": "Projetos",
   "projetos": [
     {
-      "titulo": "Roll the dice",
+      "titulo": "Cinefetch",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "Cinefetch.png",
         "alt": ""
       },
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "descricao": "CineFetch é uma API desenvolvida para consultar filmes utilizando a API pública OMDB.",
       "tecnologias": "Tecnologias usadas no projeto",
       "botoes": [
         {
           "texto": "Acessar projeto",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": ""
         },
         {
           "texto": "Acessar repositório",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/cinefetch"
         }
       ]
     },
     {
-      "titulo": "Roll the dice",
+      "titulo": "People Sync",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "PeopleSync.png",
         "alt": ""
       },
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "descricao": "People-sync é uma API desenvolvida com o objetivo de gerenciar cadastros de usuários.",
       "tecnologias": "Tecnologias usadas no projeto",
       "botoes": [
         {
           "texto": "Acessar projeto",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": ""
         },
         {
           "texto": "Acessar repositório",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/people-sync"
         }
       ]
     },
     {
-      "titulo": "Roll the dice",
+      "titulo": "Web Pokedex",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "ash-caminhando.png",
         "alt": ""
       },
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "descricao": "Web-Pokedex é um projeto usando apenas o front com objetivo de aprimoramento da responsividade.",
       "tecnologias": "Tecnologias usadas no projeto",
       "botoes": [
         {
           "texto": "Acessar projeto",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": "https://murillomorgado.github.io/Web-Pokedex/anime"
         },
         {
           "texto": "Acessar repositório",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/Web-Pokedex"
         }
       ]
     },
     {
-      "titulo": "Roll the dice",
+      "titulo": "Smart Market",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "SmartMarket.png",
         "alt": ""
       },
-      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "descricao": "Smart Market e um projeto em desenvolvimento com front, back e banco com o objetivo de gerenciar compras do mês.",
       "tecnologias": "Tecnologias usadas no projeto",
       "botoes": [
         {
           "texto": "Acessar projeto",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": ""
         },
         {
           "texto": "Acessar repositório",
           "tipo": "button",
-          "classe": "btn btn-outline-light"
+          "classe": "btn btn-outline-light",
+          "link": "https://github.com/MurilloMorgado/smart-market"
         }
       ]
     }
