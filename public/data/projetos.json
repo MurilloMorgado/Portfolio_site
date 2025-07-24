@@ -4,7 +4,7 @@
     {
       "titulo": "Cinefetch",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "Cinefetch.png",
         "alt": ""
       },
       "descricao": "CineFetch é uma API desenvolvida para consultar filmes utilizando a API pública OMDB.",
@@ -27,10 +27,10 @@
     {
       "titulo": "People Sync",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "PeopleSync.png",
         "alt": ""
       },
-      "descricao": "eople-sync é uma API desenvolvida com o objetivo de gerenciar cadastros de usuários.",
+      "descricao": "People-sync é uma API desenvolvida com o objetivo de gerenciar cadastros de usuários.",
       "tecnologias": "Tecnologias usadas no projeto",
       "botoes": [
         {
@@ -50,7 +50,7 @@
     {
       "titulo": "Web Pokedex",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "ash-caminhando.png",
         "alt": ""
       },
       "descricao": "Web-Pokedex é um projeto usando apenas o front com objetivo de aprimoramento da responsividade.",
@@ -73,7 +73,7 @@
     {
       "titulo": "Smart Market",
       "imagem": {
-        "src": "img-provi.jpg",
+        "src": "SmartMarket.png",
         "alt": ""
       },
       "descricao": "Smart Market e um projeto em desenvolvimento com front, back e banco com o objetivo de gerenciar compras do mês.",

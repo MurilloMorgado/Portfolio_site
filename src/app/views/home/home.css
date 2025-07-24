@@ -140,6 +140,7 @@ h4 {
 .custom-card img {
   width: 550px;
   height: 200px;
+  object-fit: cover;
   background: #272727;
   border-left: solid 5px #00a3a3;
 }
